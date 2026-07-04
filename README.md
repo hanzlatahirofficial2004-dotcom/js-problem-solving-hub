@@ -20,6 +20,8 @@ Real-world scenarios converted into logical JavaScript functions:
 * **Highest Scorer Finder:** Parses an array of student objects `[{name, score}]` to extract the top performer dynamically.
 * **Candy Distributor:** A smart mathematical function calculating even distribution and remaining leftovers.
 * **CRM Data Cleanliness:** Analyzes contacts database to calculate the exact percentage of non-duplicate, clean records.
+* <img width="1235" height="865" alt="image" src="https://github.com/user-attachments/assets/cc0eeebc-f095-48ae-bd8d-8ef95ef464b0" />
+
 
 #### 🔹 Daily Challenges (`week_01_Daily_Challanges.html`)
 Algorithmic puzzles focused on strings, arrays, and pure logic:
