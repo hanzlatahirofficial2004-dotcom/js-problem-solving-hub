@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WORD-PROBLEMS</title>
+</head>
+<body>
+    
+    <script>
+ // problem # 01:-
+
+ //Three students scored [80, 92, 75], given as [{name, score}]. Write a function that returns the name of the highest scorer.
+  
+  console.log("Problem # 01")
+
+
+ let Array =[{name:'Hanzla',score:92},{name:'Dawood',score:80},{name:'Awais',score:75}];
+ function Finding_Maximum_Scor(Array)
+ { 
+   let max=Array[0];
+   for(let i=0;i<Array.length ;i++)
+ {
+   if(Array[i].score > max.score)
+   {
+    max=Array[i];
+   }
+   
+ }
+ console.log(max);
+ }
+ Finding_Maximum_Scor(Array);
+
+
+ // problem # 02:-
+
+ //A teacher has 23 candies to split evenly among 5 students. Write a function that returns how many candies each student gets, and how many are left over.
+
+
+ console.log("Problem # 02")
+ let Candies =23;
+ let Students =5;
+ function Candies_Distribution(Candies,Students)
+ {
+   let Each_Student = Math.floor(Candies /Students);
+   console.log('Each Student Got The '+Each_Student+' Candies'); 
+   let Left_Candiest = Math.floor(Candies % Students);
+   console.log('The Left Candies ' + Left_Candiest); 
+ }
+
+ Candies_Distribution(Candies,Students);
+
+
+ // problem # 03:-
+
+ //A CRM holds 10 contacts, and 4 of them are marked as duplicates. Write a function that returns the percentage that's clean.
+ 
+ console.log("Problem # 03")
+ let Total =10;
+ let Duplicate =4;
+ function Finding_Duplicate(Total, Duplicate)
+ {
+    let Clean = Total - Duplicate;
+    let percentage = (Clean/Total) *100;
+    console.log('The Percentage Of The Clean Numbers Is ' + percentage +'%');
+ }
+
+ Finding_Duplicate(Total, Duplicate);
+ 
+
+ 
+  
+   
+
+    </script>
+
+</body>
+</html>
