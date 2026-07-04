@@ -31,6 +31,8 @@ Algorithmic puzzles focused on strings, arrays, and pure logic:
 * **Extreme Values Finder:** Locating the absolute minimum and maximum values without `Math.min()` or `Math.max()`.
 * **Duplicate Finder:** Scanning arrays to isolate and extract repeated elements.
 * **Array Intersection:** Finding common ground between two datasets without stacking `.filter()` and `.includes()`.
+* <img width="1234" height="867" alt="image" src="https://github.com/user-attachments/assets/08610f2a-20dd-41c8-b3a0-65937c925147" />
+
 
 ---
 
